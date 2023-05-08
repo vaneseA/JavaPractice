@@ -44,7 +44,7 @@
     </fieldset>
   </form>
   <ul>
-    <li><a href="board.jsp">게시글 보기</a></li>
+    <li><a href="index.jsp">게시글 보기</a></li>
   </ul>
 </body>
 </html>

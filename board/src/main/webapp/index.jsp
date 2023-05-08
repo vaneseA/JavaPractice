@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ page import="com.google.firebase.auth.FirebaseAuth" %>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +23,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> 로그인</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> 회원가입</a></li>
+      <li><a href="signUp.jsp"><span class="glyphicon glyphicon-user"></span> 회원가입</a></li>
     </ul>
   </div>
 </nav>
